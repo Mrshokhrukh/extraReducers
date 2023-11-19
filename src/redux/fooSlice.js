@@ -21,6 +21,7 @@ export const getCartItems = createAsyncThunk(
     }
   }
 );
+
 const { pending, fulfilled, rejected } = getCartItems;
 
 export const fooSlice = createSlice({
